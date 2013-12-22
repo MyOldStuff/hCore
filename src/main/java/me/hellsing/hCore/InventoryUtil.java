@@ -1,7 +1,11 @@
 package me.hellsing.hCore;
 
 
-/*
+import org.bukkit.craftbukkit.v1_7_R1.inventory.CraftInventoryCustom;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.PlayerInventory;
+
 public class InventoryUtil
 {
     public static Inventory getArmorInventory(PlayerInventory inventory)
@@ -26,6 +30,8 @@ public class InventoryUtil
         return storage;
     }
 
+
+    /*
     public static String toBase64(Inventory inventory)
     {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -78,5 +84,7 @@ public class InventoryUtil
 
         return null;
     }
+    */
+
 }
-*/
+
