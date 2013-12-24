@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.michidk</groupId>
+    <groupId>me.hellsing</groupId>
     <artifactId>hCore</artifactId>
     <version>1.0.0</version>
 
@@ -83,7 +83,7 @@
                         </goals>
                         <configuration>
                             <target>
-                                <copy file="target/PlayerServerIcon-1.0-SNAPSHOT.jar"
+                                <copy file="target/${artifactId}-${version}.jar"
                                       tofile="C:\Users\ml\Documents\Bukkit\server\bukkit\plugins\${artifactId}.jar" />
                             </target>
                         </configuration>
